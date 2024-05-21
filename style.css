@@ -1,0 +1,115 @@
+* {
+    font-size: 16px;
+    font-family: 'overlock',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("https://pixabay.com/get/g7ae20c78631a10b180ec24d16e9569286ffe08c45ab5d24c5fae3cae1aa84cb05f7cd6b4b01b85603ae1b8eb7fd7988f539b7d7efbb964fdf0b6a593e3623302_1920.jpg");
+    color: #ddd;
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 3rem auto 0 auto ;
+    background-color: rgba(28, 28, 28, 0.3);
+    height: 6.5rem;
+    padding: 1.25rem;
+}
+
+.cabecalho-marca { 
+    align-self: center;
+}
+
+.cabecalho-marca-link {
+    font-family: "Titillium Web", sans-serif;
+    color: #ddd;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.cabecalho-menu {
+    align-self: center;
+}
+.cabecalho-menu-lista{
+    list-style-type: none;
+    display: flex;
+}
+
+.cabecalho-menu-lista-link{
+    color:#ddd;
+    text-decoration: none;
+    padding: 0.25rem;
+    margin: 0 0.625rem;
+    font-size: 1.125rem;
+}
+
+.cabecalho-menu-lista-link:hover {
+    color:#f87;
+    border-bottom: 2px solid #f87;
+    background-color: rgba(28, 28, 28, 0.65);
+
+}
+
+.conteudo {
+    height: calc(100vh - 9.5rem);
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.conteudo-caixa{
+    width: 50%;
+    background-color: rgba(28, 28, 28, 0.5);
+    border-bottom: 2px solid whitesmoke;
+    padding: 1rem;
+
+}
+.conteudo-subtitulo {
+    color: rgb(241, 233, 231);
+    font-size: 2.5rem
+}
+
+.conteudo-frase {
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+
+.rodape {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda{
+    border: 1px solid yellow;
+    min-height: 15rem;
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+.rodape-direita{
+    border: 1px solid cyan;
+    min-height: 15rem;
+    font-size: 1.5rem;
+    color: #ddd;
+}
+.empresa {
+    color: blue;
+}
