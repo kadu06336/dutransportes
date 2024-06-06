@@ -75,7 +75,7 @@ h2 {
 
 .conteudo-caixa{
     width: 50%;
-    background-color: rgba(28, 28, 28, 0.5);
+    background-color: rgba(114, 112, 112, 0.5);
     border-bottom: 2px solid whitesmoke;
     padding: 1rem;
 
@@ -92,7 +92,7 @@ h2 {
 }
 
 .rodape {
-    border-top: 2px solid whitesmoke;
+   
     min-height: 15rem;
     background-color: #222;
     position: absolute;
@@ -102,28 +102,75 @@ h2 {
 
 
 .rodape-caixa {
-    border: 1px solid rgb(240, 240, 232);
+   
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: 100%;
     margin: 0 auto;
+    padding-bottom: 1.5rem;
 
 }
 
 .rodape-esquerda{
-    border: 1px solid rgb(19, 1, 2);
+ 
     min-height: 15rem;
 
 }
+.laranja{
+    color: #f87;
+}
+
+.verde{
+    color: #25d366;
+}
+
+.rodape-marca{
+    font-family: "Titillium Web", sans-serif;
+    color: #ddd;
+    font-size: 2rem;
+    font-size: italic;
+}
+
+.rodape-marca-icone{
+    color:white;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+
+}
+.rodape-subtitulo{
+    color:white;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+
+}
+
 
 .rodape-direita{
-    border: 1px solid rgb(238, 247, 247);
     font-size: 2.rem;
     color: rgb(226, 223, 223);
-    
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: right;
 }
-.empresa {
-    color: blue;
+    
+
+.rodape-link{
+    text-decoration: none;
 }
+
+.rodape-icone-link{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: whitesmoke;
+
+}
+    
+.rodape-icone-link:hover{
+    color: white;
+}
+
+
+
