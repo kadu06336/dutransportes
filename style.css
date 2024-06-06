@@ -5,7 +5,7 @@
 }
 
 body{
-background-image: url("https://pixabay.com/get/g7ae20c78631a10b180ec24d16e9569286ffe08c45ab5d24c5fae3cae1aa84cb05f7cd6b4b01b85603ae1b8eb7fd7988f539b7d7efbb964fdf0b6a593e3623302_1920.jpg");
+background-image: url("Hyundai-HB-20-farois-acendimento-automatico.jpg");
     color: #ddd;
     background-color: #222;
     background-repeat: no-repeat;
@@ -92,23 +92,37 @@ h2 {
 }
 
 .rodape {
-    border: 1px solid blue;
+    border-top: 2px solid whitesmoke;
+    min-height: 15rem;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+
+.rodape-caixa {
+    border: 1px solid rgb(240, 240, 232);
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+
 }
 
 .rodape-esquerda{
-    border: 1px solid yellow;
+    border: 1px solid rgb(19, 1, 2);
     min-height: 15rem;
-    font-size: 1.5rem;
-    color: #ddd;
+
 }
 
 .rodape-direita{
-    border: 1px solid cyan;
-    min-height: 15rem;
-    font-size: 1.5rem;
-    color: #ddd;
+    border: 1px solid rgb(238, 247, 247);
+    font-size: 2.rem;
+    color: rgb(226, 223, 223);
+    
+    
 }
 .empresa {
     color: blue;
