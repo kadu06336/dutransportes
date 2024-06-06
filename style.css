@@ -75,7 +75,7 @@ h2 {
 
 .conteudo-caixa{
     width: 50%;
-    background-color: rgba(114, 112, 112, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid whitesmoke;
     padding: 1rem;
 
@@ -94,7 +94,7 @@ h2 {
 .rodape {
    
     min-height: 15rem;
-    background-color: #222;
+    background-color: #1d1c1c;
     position: absolute;
     left: 0;
     width: 100%;
@@ -109,6 +109,7 @@ h2 {
     height: 100%;
     margin: 0 auto;
     padding-bottom: 1.5rem;
+    box-sizing: border-box;
 
 }
 
@@ -117,8 +118,8 @@ h2 {
     min-height: 15rem;
 
 }
-.laranja{
-    color: #f87;
+.verde{
+    color: #25d366;;
 }
 
 .verde{
@@ -126,10 +127,11 @@ h2 {
 }
 
 .rodape-marca{
-    font-family: "Titillium Web", sans-serif;
+    font-family: 'overlock',sans-serif;
     color: #ddd;
     font-size: 2rem;
     font-size: italic;
+    box-sizing: border-box;
 }
 
 .rodape-marca-icone{
